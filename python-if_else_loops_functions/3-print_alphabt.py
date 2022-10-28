@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for letter in range(ord('a'), ord('z') + 1):
-    if letter != ord('e') and letter != ord('q'):
-        print("{:c}".format(letter), end="")
+for a in range(97, 123):
+    if (a != 101 and a != 113):
+        print("{}".format(chr(a)), end="")
