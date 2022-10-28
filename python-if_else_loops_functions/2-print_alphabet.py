@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for alpha in range(ord('a'), ord('z') + 1)
-    print("{:c}".format(alpha), end="")
+for a in range(97, 123):
+    print("{0:s}".format(chr(a)), end="")
