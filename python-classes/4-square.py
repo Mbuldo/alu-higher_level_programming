@@ -13,9 +13,14 @@ class Square:
 
     def __init__(self, size=0):
         """
-        gives current square size
+      a square with a private instance att.: size  
 
         """
+        self.size = size
+
+    @property
+    def size(self):
+        """shows current size of square"""
         return (self.__size)
 
     @size.setter
