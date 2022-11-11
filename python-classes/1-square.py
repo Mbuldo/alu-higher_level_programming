@@ -6,7 +6,6 @@ a class 'square' that defines a square given instructions
 """
 
 
-
 class Square:
     """
     square with a private instance attribute: size
