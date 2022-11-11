@@ -12,12 +12,15 @@ class Square:
     """
 
     def __init__(self, size=0):
-        """define size att."""
+        """
+        define size att.
+
+        """
         self.__size = size
 
     @property
     def size(self):
-        "returns the size att"
+        """returns the size att."""
         returns self.__size
 
     @size.setter
