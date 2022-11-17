@@ -2,7 +2,7 @@
 # function that returns the list of available,
 # attributes and methods of an object
 """
-    define function "lookup"
+    define a function 'lookup'
 """
 
 

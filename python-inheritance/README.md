@@ -1,1 +1,1 @@
-Readme file for python-inheritance directory
+Readme file for *python-inheritance* directory.  
